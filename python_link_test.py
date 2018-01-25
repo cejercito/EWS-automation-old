@@ -40,7 +40,7 @@ PATIENCE_TIME = 10
 
 
 link_to_click = {
-        '01'        : ['Status'     ,'//*[@id="Status-link"]/a'               ,'//*[@id="Supplies"]'], 
+        '01'        : ['Status'     ,'//*[@id="Status-link1"]/a'               ,'//*[@id="Supplies"]'], 
         '02'        : ['Settings'   ,'//*[@id="Settings-link"]/a'             ,'/html/body/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[1]/div[1]/a/img'],
         '03'        : ['Device'     ,'//*[@id="Settings-Device-link"]/a'      ,'//*[@id="ScreenTimeout"]'],
 	'04'        : ['Print'      ,'//*[@id="Settings-Print-link"]/a'       ,'//*[@id="PrintLayout"]'],
@@ -90,7 +90,7 @@ while (count <= execution):
 
     for x in link_to_click_sorted:
 
-	link_element  = link_to_click[x][1]
+	link_element  = link_to_click[x][2]
         wait_element  = link_to_click[x][2]
    
         try:
