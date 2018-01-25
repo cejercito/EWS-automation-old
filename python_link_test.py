@@ -59,7 +59,7 @@ link_to_click = {
         '17'        : ['Shortcuts'  , '//*[@id="ShortcutsManagement-link"]/a' ,'/html/body/div[2]/div[3]/div[3]/div[2]/div[2]/ul/li/div/div[3]/table/thead/tr/th[2]'],
         '18'        : ['Bookmark Setup','//*[@id="BookmarkSetup-link"]/a'     ,'/html/body/div[2]/div[3]/div[3]/div[2]/div[2]/ul/li[2]/div/ul/li/div/button'],
         '19'        : ['Apps'       ,'//*[@id="Applications-link"]/a'         ,'/html/body/div[2]/div[3]/div[3]/div[2]/div[2]/ul/li[1]/div/div[3]/ul[1]/li[1]/div/button'],
-        '20'        : ['Site Map'   ,'/html/body/div[2]/div[3]/div[2]/div[3]/div/a' ,'/html/body/div[2]/div[3]/div[3]/div[2]/div[2]/ul/li[1]/div/div[3]/ul[1]/li/div/div/div[1]/div[1]/a']
+        '20'        : ['Site Map'   ,'/html/body/div[2]/div[3]/div[2]/div[3]/div/a' ,'/html/body/div[2]/div[3]/div[3]/div[2]/div[2]/ul/li[1]/div/div[3]/ul[1]/li/div/div/div[1]/div[1]/a'],
 
          }
 
